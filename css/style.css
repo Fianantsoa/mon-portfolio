@@ -355,7 +355,7 @@ a:hover {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #000000;
 }
 
 #preloader:before {
@@ -1187,6 +1187,17 @@ footer .credits a {
   color: #1B1B1B !important;
 }
 
+.pdp-blob{
+  position: relative;
+}
+.blob{
+  position: absolute;
+  top: -40px;
+  left: -20px;
+  z-index: -121;
+  width: 180px;
+}
+
 .home-back {
   background-size: cover;
   background-position: center;
@@ -1315,3 +1326,5 @@ footer .credits a {
     bottom: 15px;
   }
 }
+
+

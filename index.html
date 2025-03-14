@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="description" content="NOMENTSOA Fianantsoa Fernando - Développeur Web et Logiciel spécialisé en développement web, design et intelligence artificielle.">
+  <meta name="keywords" content="Nomentsoa Fianantsoa Fernando, développeur
+  développeur web, développeur logiciel, designer, intelligence artificielle, 
+  création de sites web, portfolio développeur">
   <title>NOMENTSOA Fianantsoa Fernando | Développeur Web et Logiciel</title>
-  <meta name="description" content="NOMENTSOA Fianantsoa Fernando - Développeur Web et Logiciel">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="Nomentsoa Fianantsoa Fernando" name="keywords">
-
   <!-- Favicons -->
   <link href="img/favicon.ico" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -31,7 +32,7 @@
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll" href="#page-top">Nomentsoa</a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+      <button class="navbar-toggler collapsed" style="background-color: darkcyan;" type="button" data-toggle="collapse" data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
         <span></span>
@@ -88,8 +89,9 @@
               <div class="col-md-6">
                 <div class="row">
                   <div class="col-sm-6 col-md-5">
-                    <div class="about-img-none" style="margin-bottom: 20px;">
+                    <div class="about-img-none pdp-blob" style="margin-bottom: 20px;">
                       <img src="img/profil.png" class="img-fluid rounded b-shadow-a" alt="pdp " style="width: 86%;">
+                      <img src="img/blob-1-opacity-44.gif" class="blob" alt="">
                     </div>
                   </div>
                   <div class="col-sm-6 col-md-7">
@@ -209,7 +211,7 @@
               <span class="ico-circle"><i class="ion-monitor"></i></span>
             </div>
             <div class="service-content">
-              <h2 class="s-title">Design Web</h2>
+              <h2 class="s-title"><strong> Design Web</strong></h2>
               <p class="s-description text-center">
                 Créer des interfaces intuitives et modernes pour une expérience utilisateur optimale.
               </p>
@@ -222,7 +224,7 @@
               <span class="ico-circle"><i class="ion-code-working"></i></span>
             </div>
             <div class="service-content">
-              <h2 class="s-title">Développement Web</h2>
+              <h2 class="s-title"><strong>Développement Web</strong></h2>
               <p class="s-description text-center">
                 Concevoir des applications performantes et sécurisées, du back-end au front-end.
               </p>
@@ -248,7 +250,7 @@
               <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
             </div>
             <div class="service-content">
-              <h2 class="s-title">Design Responsive</h2>
+              <h2 class="s-title"><strong>Design Responsive</strong></h2>
               <p class="s-description text-center">
                 Des sites web adaptatifs qui offrent une navigation fluide sur tous les écrans.
               </p>
@@ -261,7 +263,7 @@
               <span class="ico-circle"><i class="ion-paintbrush"></i></span>
             </div>
             <div class="service-content">
-              <h2 class="s-title">Design Graphique</h2>
+              <h2 class="s-title"><strong>Design Graphique</strong></h2>
               <p class="s-description text-center">
                 Transformer les idées en visuels percutants pour une communication efficace.
               </p>
@@ -619,36 +621,36 @@
                     </h5>
                   </div>
                   <div>
-                    <form action="https://formspree.io/f/xgvoyjzk" method="post" role="form" class="contactForm">
+                    <form action="https://formspree.io/f/xgvoyjzk" name="form" method="post" role="form" class="contactForm">
                       <div id="sendmessage">Merci pour votre confiance!</div>
                       <div id="errormessage"></div>
                       <div class="row">
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Votre Nom" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Votre Nom" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required />
                             <div class="validation"></div>
                           </div>
                         </div>
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Votre Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Votre Email" data-rule="email" data-msg="Please enter a valid email" required />
                             <div class="validation"></div>
                           </div>
                         </div>
                         <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required/>
                               <div class="validation"></div>
                             </div>
                         </div>
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message" required></textarea>
                             <div class="validation"></div>
                           </div>
                         </div>
                         <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded">Envoyer le message</button>
+                          <button type="submit" onclick="notification()" class="button button-a button-big button-rouded">Envoyer le message</button>
                         </div>
                       </div>
                     </form>
@@ -717,6 +719,16 @@
   <script src="lib/typed/typed.min.js"></script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
+  <script>
+    function notification(){
+      const name = document.forms["form"]["name"].value;
+      const email = document.forms["form"]["email"].value;
+      const subject = document.forms["form"]["subject"].value;
+      if(name != "" && email != "" && subject != ""){
+        alert("Message bien envoyé!")
+      }
+    }
+  </script>
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
